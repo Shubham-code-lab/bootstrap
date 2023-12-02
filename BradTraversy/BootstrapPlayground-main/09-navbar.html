@@ -11,16 +11,79 @@
     <h1 class="mb-5">Navbar</h1>
 
     <!-- Simple Navbar -->
+    <!-- -md any thing below medium screen size is in hamburger -->
+    <nav class="navbar navbar-expand-md bg-light">
+      <div class="container">
+        <a href="#" class="navbar-brand">Navbar</a>
+        <button class="navbar-toggler" type="button" 
+                data-bs-toggle="collapse" data-bs-target="#navbarNav1">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav1">
+          <!-- ms-auto will push nav to end( at right side) -->
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <br /><br />
 
     <!-- Color Variant -->
+    <!-- navbar-dark will just make text white in any given bg-dark, bg-primary,etc -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <div class="container">
+        <a href="#" class="navbar-brand">Navbar</a>
+        <button class="navbar-toggler" type="button" 
+                data-bs-toggle="collapse" data-bs-target="#navbarNav2">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav2">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Service</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <br /><br />
 
     <!-- Fixed Top -->
+    <nav class="navbar navbar-expand-md bg-primary navbar-dark fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">Navbar</a>
+        <button class="navbar-toggler" type="button" 
+                data-bs-toggle="collapse" data-bs-target="#navbarNav3">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav3">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Service</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <!-- Form In Navbar -->
+    <nav class="navbar navbar-expand-md bg-primary navbar-dark">
+      <div class="container">
+        <a href="#" class="navbar-brand">Navbar</a>
+        <form class="d-flex" role="search">
+          <input type="text" class="form-control me-2">
+          <button class="btn btn-dark">Search</button>
+        </form>
+      </div>
+    </nav>
 
     <br /><br />
 
